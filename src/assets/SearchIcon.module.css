@@ -1,0 +1,8 @@
+.SearchIcon {
+  width: 4rem;
+  height: 2.5rem;
+}
+
+.SearchIcon path {
+  fill: white;
+}

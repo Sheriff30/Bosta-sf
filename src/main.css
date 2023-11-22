@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  color: #111619;
+
+  @media only screen and (max-width: 90.375em) {
+    font-size: 50%;
+  }
+  @media only screen and (max-width: 62.5em) {
+    font-size: 40%;
+  }
+  @media only screen and (max-width: 50em) {
+    font-size: 35%;
+  }
+  @media only screen and (max-width: 24.375em) {
+    font-size: 30%;
+  }
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+/* 
+colors 
+black #111619
+red #e30613
+border #f3fafb
+
+*/

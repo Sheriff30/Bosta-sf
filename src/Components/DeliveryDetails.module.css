@@ -1,0 +1,50 @@
+.DeliveryDetailsH1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.TH,
+.TD {
+  list-style: none;
+  display: flex;
+  font-size: 2rem;
+  padding: 1rem 1rem 1rem 0;
+  max-width: 100rem;
+
+  display: flex;
+}
+
+.TH li,
+.TD li {
+  width: 15rem;
+}
+
+.TD li:last-child,
+.TH li:last-child {
+  width: 35rem;
+}
+
+.TD {
+  border-bottom: 2.5px #00000014 solid;
+  border-right: 2.5px #00000014 solid;
+  border-left: 2.5px #00000014 solid;
+  padding: 2rem 1.5rem 3rem 1.5rem;
+}
+
+.TH {
+  background-color: #00000014;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: 2.5px #00000014 solid;
+  border-top: 2.5px #00000014 solid;
+  border-right: 2.5px #00000014 solid;
+  padding: 2rem 1.5rem 3rem 1.5rem;
+  border-left: 2.5px #00000014 solid;
+  color: #667085;
+}
+
+.TD:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,9 @@
+.shipmentDetail p:first-child {
+  color: #667085;
+  margin-bottom: 1rem;
+}
+.shipmentDetail p:nth-child(2) {
+  @media only screen and (max-width: 38.3125em) {
+    margin-bottom: 3rem;
+  }
+}

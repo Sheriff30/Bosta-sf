@@ -1,0 +1,8 @@
+.ReportIcon {
+  width: 7rem;
+  height: 7rem;
+}
+
+.ReportIcon path {
+  fill: #e30613;
+}

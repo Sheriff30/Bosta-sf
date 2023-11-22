@@ -1,0 +1,189 @@
+.list {
+  list-style: none;
+  font-size: 2.2rem;
+  display: flex;
+  gap: 5rem;
+  font-weight: 700;
+  align-items: center;
+}
+
+@media only screen and (max-width: 83.1875em) {
+  .list > *:not(:first-child) {
+    display: none;
+  }
+}
+
+.list li {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list li:last-child {
+  color: #e30613;
+}
+
+.list li:first-child:hover .ArrowIcon {
+  transform: rotate(90deg);
+}
+.list li:first-child:hover .ArrowIcon2 {
+  transform: rotate(270deg);
+}
+.list li:first-child:hover .ArrowIcon path {
+  fill: #e30613;
+}
+.list li:first-child:hover .ArrowIcon2 path {
+  fill: #e30613;
+}
+
+.list li:first-child {
+  height: 10rem;
+  padding: 0 2.5rem;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.list li:first-child:hover {
+  color: #e30613;
+  border-top: 2px solid #00000014;
+  border-left: 2px solid #00000014;
+  border-right: 2px solid #00000014;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ArrowIcon {
+  width: 20px;
+  height: 15px;
+  transform: rotate(180deg);
+  margin-left: 0.5rem;
+  transition: 0.3s transform ease-in-out;
+}
+.ArrowIcon2 {
+  width: 20px;
+  height: 15px;
+  transform: rotate(180deg);
+  margin-left: 0.5rem;
+  transition: 0.3s transform ease-in-out;
+}
+
+.input {
+  position: absolute;
+  width: 40rem;
+  height: 15rem;
+  border: 2px solid #00000014;
+
+  z-index: 11111111111;
+
+  background-color: white;
+  right: -2px;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  padding: 2rem 2rem;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  color: #111619;
+}
+.input2 {
+  position: absolute;
+  width: 40rem;
+  height: 15rem;
+  border: 2px solid #00000014;
+
+  z-index: 11111111111;
+
+  background-color: white;
+  left: -2px;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  padding: 2rem 2rem;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  color: #111619;
+}
+
+.list li:first-child:hover .input {
+  opacity: 1;
+  visibility: visible;
+}
+.list li:first-child:hover .input2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.input p {
+  margin-bottom: 1rem;
+}
+.input div {
+  display: flex;
+}
+.input2 p {
+  margin-bottom: 1rem;
+}
+.input2 div {
+  display: flex;
+}
+
+.input div input {
+  width: 25rem;
+  height: 5rem;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  outline: none;
+  border: 2px solid #00000014;
+  border-right: none;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+.input2 div input {
+  width: 25rem;
+  height: 5rem;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  outline: none;
+  border: 2px solid #00000014;
+  border-right: none;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.input div input::-webkit-input-placeholder {
+  color: rgba(27, 20, 20, 0.318);
+}
+.input div button {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #e30613;
+  color: white;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.input2 div input::-webkit-input-placeholder {
+  color: rgba(27, 20, 20, 0.318);
+}
+
+.input2 div button {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #e30613;
+  color: white;
+  padding: 1rem;
+  font-size: 1.6rem;
+}

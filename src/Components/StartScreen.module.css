@@ -1,0 +1,6 @@
+.StartScreen {
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

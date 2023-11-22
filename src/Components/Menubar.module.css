@@ -1,0 +1,10 @@
+.MenuBar {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  display: none;
+
+  @media only screen and (max-width: 83.1875em) {
+    display: block;
+  }
+}

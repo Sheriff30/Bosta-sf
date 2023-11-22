@@ -1,0 +1,36 @@
+.ResponsiveMenuBar {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: rgba(255, 0, 0, 0.621);
+  width: 100vw;
+  height: auto;
+  z-index: 11111;
+  backdrop-filter: blur(10px);
+  display: flex;
+
+  display: none;
+
+  @media only screen and (max-width: 83.1875em) {
+    display: block;
+  }
+}
+
+.ResponsiveMenuBar ul {
+  list-style: none;
+  font-size: 2.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+}
+.ResponsiveMenuBar ul li {
+}
+
+.ResponsiveMenuBar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
